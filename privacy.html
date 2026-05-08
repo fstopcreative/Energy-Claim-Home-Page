@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Privacy Notice — wbpdux</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&amp;display=swap"
+        rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+        rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "tertiary-container": "#365a4a",
+                        "on-tertiary": "#ffffff",
+                        "on-tertiary-fixed-variant": "#294e3f",
+                        "surface-container-lowest": "#ffffff",
+                        "on-secondary-container": "#5c6462",
+                        "on-tertiary-container": "#a8d0bc",
+                        "outline-variant": "#bec9c2",
+                        "error-container": "#ffdad6",
+                        "on-primary-fixed-variant": "#00513b",
+                        "outline": "#6f7973",
+                        "surface-container": "#e6eeff",
+                        "on-primary-fixed": "#002116",
+                        "inverse-primary": "#8bd6b6",
+                        "secondary": "#58605e",
+                        "tertiary-fixed-dim": "#a8cfbc",
+                        "on-tertiary-fixed": "#002115",
+                        "surface-dim": "#ccdbf4",
+                        "on-primary": "#ffffff",
+                        "on-surface": "#0d1c2f",
+                        "surface-container-low": "#eff4ff",
+                        "on-secondary-fixed-variant": "#404847",
+                        "inverse-on-surface": "#ebf1ff",
+                        "surface-bright": "#f8f9ff",
+                        "tertiary-fixed": "#c3ecd7",
+                        "secondary-container": "#d9e1df",
+                        "on-error-container": "#93000a",
+                        "surface-variant": "#d5e3fd",
+                        "inverse-surface": "#233144",
+                        "error": "#ba1a1a",
+                        "secondary-fixed": "#dce4e1",
+                        "surface": "#f8f9ff",
+                        "primary-fixed": "#a6f2d1",
+                        "secondary-fixed-dim": "#c0c8c6",
+                        "on-background": "#0d1c2f",
+                        "on-error": "#ffffff",
+                        "on-surface-variant": "#3f4944",
+                        "surface-container-high": "#dde9ff",
+                        "surface-container-highest": "#d5e3fd",
+                        "tertiary": "#1e4334",
+                        "on-primary-container": "#8bd6b7",
+                        "surface-tint": "#1b6b51",
+                        "primary-fixed-dim": "#8bd6b6",
+                        "primary-container": "#065f46",
+                        "primary": "#004532",
+                        "on-secondary-fixed": "#151d1c",
+                        "on-secondary": "#ffffff",
+                        "background": "#f8f9ff"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "1rem",
+                        "lg": "2rem",
+                        "xl": "3rem",
+                        "full": "9999px"
+                    },
+                    "spacing": {
+                        "section-gap": "8rem",
+                        "input-padding": "1.25rem 1.5rem",
+                        "element-gap": "2rem",
+                        "inline-gutter": "1.5rem",
+                        "container-max": "1200px"
+                    },
+                    "fontFamily": {
+                        "label-bold": ["Inter"],
+                        "display-xl": ["Inter"],
+                        "headline-lg": ["Inter"],
+                        "body-lg": ["Inter"],
+                        "input-text": ["Inter"],
+                        "headline-md": ["Inter"],
+                        "body-md": ["Inter"]
+                    },
+                    "fontSize": {
+                        "label-bold": ["14px", { "lineHeight": "1.2", "letterSpacing": "0.05em", "fontWeight": "700" }],
+                        "display-xl": ["72px", { "lineHeight": "1.1", "letterSpacing": "-0.03em", "fontWeight": "800" }],
+                        "headline-lg": ["48px", { "lineHeight": "1.2", "letterSpacing": "-0.02em", "fontWeight": "800" }],
+                        "body-lg": ["20px", { "lineHeight": "1.7", "fontWeight": "400" }],
+                        "input-text": ["16px", { "lineHeight": "1.2", "fontWeight": "400" }],
+                        "headline-md": ["28px", { "lineHeight": "1.4", "fontWeight": "700" }],
+                        "body-md": ["16px", { "lineHeight": "1.6", "fontWeight": "400" }]
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body {
+            background-color: #ffffff;
+        }
+
+        .soft-shadow {
+            box-shadow: 0 4px 20px -2px rgba(0, 69, 50, 0.04);
+        }
+
+        .modern-card-shadow {
+            box-shadow: 0 10px 30px -10px rgba(0, 69, 50, 0.08);
+        }
+
+        .modern-card-hover:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 20px 40px -12px rgba(0, 69, 50, 0.12);
+        }
+
+        @media (max-width: 768px) {
+            .font-display-xl {
+                font-size: 48px;
+            }
+
+            .font-headline-lg {
+                font-size: 32px;
+            }
+        }
+    </style>
+</head>
+
+<body class="font-body-md text-on-surface antialiased">
+    <!-- TopNavBar -->
+    <nav class="fixed top-0 w-full z-50 bg-white/70 backdrop-blur-xl border-b border-surface-container">
+        <div class="flex justify-between items-center px-inline-gutter py-5 max-w-container-max mx-auto">
+            <a href="index.html" class="font-headline-md text-headline-md tracking-tight font-extrabold text-primary">wbpdux</a>
+            <div class="hidden lg:flex gap-10 items-center">
+                <a class="text-on-surface-variant hover:text-primary transition-colors font-medium text-sm" href="index.html#how-it-works">How
+                    It Works</a>
+                <a class="text-on-surface-variant hover:text-primary transition-colors font-medium text-sm" href="index.html#why-choose-us">Why
+                    Choose Us</a>
+                <a class="text-on-surface-variant hover:text-primary transition-colors font-medium text-sm"
+                    href="index.html#faqs">FAQs</a>
+                <a href="https://energy9.vercel.app/"
+                    class="bg-primary text-white px-7 py-3 font-bold text-sm hover:opacity-90 active:scale-95 transition-all shadow-lg shadow-primary/20 rounded text-center inline-block">Check
+                    Your Eligibility
+                </a>
+            </div>
+            <button class="lg:hidden text-primary" onclick="document.getElementById('mobile-menu').classList.toggle('hidden')">
+                <span class="material-symbols-outlined">menu</span>
+            </button>
+        </div>
+        <div id="mobile-menu" class="hidden lg:hidden absolute top-full left-0 w-full bg-white/95 backdrop-blur-xl border-b border-surface-container flex flex-col p-6 shadow-2xl">
+            <div class="flex flex-col gap-6 mb-6">
+                <a class="text-on-surface hover:text-primary transition-colors font-semibold text-base flex justify-between items-center" href="index.html#how-it-works">How It Works <span class="material-symbols-outlined text-sm opacity-40">chevron_right</span></a>
+                <a class="text-on-surface hover:text-primary transition-colors font-semibold text-base flex justify-between items-center" href="index.html#why-choose-us">Why Choose Us <span class="material-symbols-outlined text-sm opacity-40">chevron_right</span></a>
+                <a class="text-on-surface hover:text-primary transition-colors font-semibold text-base flex justify-between items-center" href="index.html#faqs">FAQs <span class="material-symbols-outlined text-sm opacity-40">chevron_right</span></a>
+            </div>
+            <a href="https://energy9.vercel.app/"
+               class="bg-primary text-white px-6 py-4 font-bold text-base active:scale-95 transition-all shadow-lg shadow-primary/20 rounded-xl text-center inline-block w-full">Check Your Eligibility</a>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="pt-28 lg:pt-40 pb-12 px-inline-gutter max-w-container-max mx-auto">
+        <a href="index.html" class="inline-flex items-center gap-2 text-sm text-on-surface-variant hover:text-primary transition-colors mb-6">
+            <span class="material-symbols-outlined text-base">arrow_back</span>
+            Back to home
+        </a>
+        <div class="flex items-center gap-3 mb-6">
+            <div class="inline-flex items-center gap-2 bg-primary/5 px-4 py-2 rounded-full text-primary font-bold text-xs uppercase tracking-wider">
+                <span class="material-symbols-outlined text-[16px] fill-current">shield</span>
+                Legal
+            </div>
+        </div>
+        <h1 class="text-[36px] md:text-[48px] lg:text-[64px] font-extrabold text-on-surface leading-[1.1] tracking-tight">Privacy Notice</h1>
+        <p class="font-body-lg text-body-lg text-on-surface-variant leading-relaxed mt-6">How wbpdux collects, uses and protects information provided through our website and intake forms.</p>
+    </section>
+
+    <!-- Content -->
+    <section class="pb-section-gap px-inline-gutter max-w-container-max mx-auto">
+        <article class="space-y-12">
+                <div id="who-we-are" class="space-y-4 scroll-mt-28">
+                    <h2 class="text-2xl md:text-3xl font-bold text-on-surface">Who we are</h2>
+                    <p class="text-on-surface-variant leading-relaxed">This website is operated by Wellbeing Places Limited trading as WBPDUX, unless a separate operating entity is confirmed. Registered company number 11342583. Registered office: 5/6 Salmon Fields Business Village, Oldham, Lancashire, United Kingdom, OL2 6HT. Contact: <a href="mailto:info@wbpdux.co.uk" class="text-primary font-semibold hover:underline">info@wbpdux.co.uk</a>. ICO registration: ZA740377.</p>
+                </div>
+
+                <div id="what-we-do" class="space-y-4 scroll-mt-28">
+                    <h2 class="text-2xl md:text-3xl font-bold text-on-surface">What we do</h2>
+                    <p class="text-on-surface-variant leading-relaxed">We provide business document intake, document-management and referral-support services. In the business energy context, we collect information to help identify, organise and route documents for assessment. We do not provide legal advice and we do not guarantee that any matter will be accepted or result in recovery.</p>
+                </div>
+
+                <div id="information-we-collect" class="space-y-4 scroll-mt-28">
+                    <h2 class="text-2xl md:text-3xl font-bold text-on-surface">Information we collect</h2>
+                    <p class="text-on-surface-variant leading-relaxed">Business name, company number, trading name, address, site address, contact name, role, email, telephone number, energy supplier, historic supplier, broker/consultant used, MPAN, MPRN, contract dates, signed authority documents, supplier bills, contracts, broker emails, terms and related supporting evidence.</p>
+                </div>
+
+                <div id="why-we-use-it" class="space-y-4 scroll-mt-28">
+                    <h2 class="text-2xl md:text-3xl font-bold text-on-surface">Why we use it</h2>
+                    <p class="text-on-surface-variant leading-relaxed">To respond to enquiries, verify business and site information, manage document intake, organise evidence, request missing documents, refer a matter for assessment where appropriate, maintain records, handle complaints, comply with legal obligations and improve our workflow.</p>
+                </div>
+
+                <div id="lawful-bases" class="space-y-4 scroll-mt-28">
+                    <h2 class="text-2xl md:text-3xl font-bold text-on-surface">Lawful bases</h2>
+                    <p class="text-on-surface-variant leading-relaxed">Depending on the activity, we may rely on legitimate interests, contractual necessity, legal obligation and consent. Consent is used where we ask for a specific optional permission, such as separate utility-review contact or marketing. Consent can be withdrawn at any time.</p>
+                </div>
+
+                <div id="who-we-share-it-with" class="space-y-4 scroll-mt-28">
+                    <h2 class="text-2xl md:text-3xl font-bold text-on-surface">Who we share it with</h2>
+                    <p class="text-on-surface-variant leading-relaxed">Approved assessment partners, RMB, appointed solicitors, utility specialists, IT providers, Microsoft 365/SharePoint/Forms providers, professional advisers and regulators where required. We only share what is relevant for the stated purpose.</p>
+                </div>
+
+                <div id="retention" class="space-y-4 scroll-mt-28">
+                    <h2 class="text-2xl md:text-3xl font-bold text-on-surface">Retention</h2>
+                    <p class="text-on-surface-variant leading-relaxed">Initial enquiries that do not progress should normally be retained for up to 12 months. Active matters should be retained while the matter is live and for a reasonable audit/limitation period after closure. Sensitive identity documents should not be requested at initial enquiry stage and should be separately restricted if later required.</p>
+                </div>
+
+                <div id="your-rights" class="space-y-4 scroll-mt-28">
+                    <h2 class="text-2xl md:text-3xl font-bold text-on-surface">Your rights</h2>
+                    <p class="text-on-surface-variant leading-relaxed">Individuals may have rights to access, rectification, erasure, restriction, objection, portability and withdrawal of consent. Requests should be sent to <a href="mailto:info@wbpdux.co.uk" class="text-primary font-semibold hover:underline">info@wbpdux.co.uk</a>. Individuals also have the right to complain to the Information Commissioner's Office.</p>
+                </div>
+
+                <div id="marketing-and-opt-out" class="space-y-4 scroll-mt-28">
+                    <h2 class="text-2xl md:text-3xl font-bold text-on-surface">Marketing and opt-out</h2>
+                    <p class="text-on-surface-variant leading-relaxed">You can object to or opt out of marketing or non-essential contact at any time by emailing <a href="mailto:info@wbpdux.co.uk" class="text-primary font-semibold hover:underline">info@wbpdux.co.uk</a>. WBPDUX should maintain suppression records to ensure opt-out requests are respected.</p>
+                </div>
+        </article>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-surface-container-lowest border-t border-surface-container pt-20 pb-12 px-inline-gutter">
+        <div class="max-w-container-max mx-auto">
+            <div class="grid md:grid-cols-12 gap-12 mb-16">
+                <div class="md:col-span-5 space-y-6">
+                    <a href="index.html" class="font-headline-md text-headline-md font-extrabold text-primary tracking-tight inline-block">
+                        wbpdux</a>
+                    <p class="text-on-surface-variant leading-relaxed">Wbpdux is a document-management and
+                        referral-support service. We are not a law firm and do not provide legal advice. Any legal
+                        assessment is undertaken by an appointed assessment team or solicitor under its own terms.</p>
+                    <div class="space-y-3 text-sm text-on-surface-variant">
+                        <div class="flex items-start gap-3 leading-6">
+                            <span class="material-symbols-outlined text-primary text-[20px] leading-6 flex-shrink-0">location_on</span>
+                            <span>5/6 Salmon Fields Business Village, Oldham, Lancashire, United Kingdom, OL2 6HT.</span>
+                        </div>
+                        <div class="flex items-center gap-3 leading-6">
+                            <span class="material-symbols-outlined text-primary text-[20px] leading-6 flex-shrink-0">mail</span>
+                            <a class="hover:text-primary transition-colors" href="mailto:info@wbpdux.co.uk">info@wbpdux.co.uk</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="md:col-span-4 space-y-4 md:col-start-9">
+                    <h4 class="font-bold text-xs uppercase tracking-widest text-on-surface">Policies</h4>
+                    <ul class="space-y-2 text-sm text-on-surface-variant">
+                        <li><a class="hover:text-primary transition-colors" href="privacy.html">Privacy Notice</a></li>
+                        <li><a class="hover:text-primary transition-colors" href="cookies.html">Cookie and Tracking Policy</a></li>
+                        <li><a class="hover:text-primary transition-colors" href="terms.html">Website Terms of Use</a></li>
+                        <li><a class="hover:text-primary transition-colors" href="bec-form.html">BEC Form Terms and Consent Notice</a></li>
+                        <li><a class="hover:text-primary transition-colors" href="contact-policy.html">Contact and Communications Policy</a></li>
+                        <li><a class="hover:text-primary transition-colors" href="complaints.html">Complaints / Concerns Procedure</a></li>
+                        <li><a class="hover:text-primary transition-colors" href="accessibility.html">Accessibility Statement</a></li>
+                        <li><a class="hover:text-primary transition-colors" href="#">Data Retention and Document Handling Policy</a></li>
+                        <li><a class="hover:text-primary transition-colors" href="#">Partner / Referral Disclosure</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div
+                class="pt-8 border-t border-surface-container flex flex-col md:flex-row justify-between items-center gap-6 text-[12px] text-on-surface-variant/60 font-medium">
+                <div>Wellbeing Places Limited trading as Wbpdux Company Number: 11342583 </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
