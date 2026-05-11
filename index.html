@@ -137,12 +137,12 @@
             <div class="font-headline-md text-headline-md tracking-tight font-extrabold text-primary">wbpdux
             </div>
             <div class="hidden lg:flex gap-10 items-center">
-                <a class="text-on-surface-variant hover:text-primary transition-colors font-medium text-sm" href="#">How
+                <a class="text-on-surface-variant hover:text-primary transition-colors font-medium text-sm" href="#how-it-works">How
                     It Works</a>
-                <a class="text-on-surface-variant hover:text-primary transition-colors font-medium text-sm" href="#">Why
+                <a class="text-on-surface-variant hover:text-primary transition-colors font-medium text-sm" href="#why-choose-us">Why
                     Choose Us</a>
                 <a class="text-on-surface-variant hover:text-primary transition-colors font-medium text-sm"
-                    href="#">FAQs</a>
+                    href="#faqs">FAQs</a>
                 <a href="https://bec.wbpdux.co.uk/"
                     class="bg-primary text-white px-7 py-3 font-bold text-sm hover:opacity-90 active:scale-95 transition-all shadow-lg shadow-primary/20 rounded text-center inline-block">Check
                     Your Eligibility
@@ -154,10 +154,9 @@
         </div>
         <div id="mobile-menu" class="hidden lg:hidden absolute top-full left-0 w-full bg-white/95 backdrop-blur-xl border-b border-surface-container flex flex-col p-6 shadow-2xl">
             <div class="flex flex-col gap-6 mb-6">
-                <a class="text-on-surface hover:text-primary transition-colors font-semibold text-base flex justify-between items-center" href="#">How It Works <span class="material-symbols-outlined text-sm opacity-40">chevron_right</span></a>
-                <a class="text-on-surface hover:text-primary transition-colors font-semibold text-base flex justify-between items-center" href="#">Why Choose Us <span class="material-symbols-outlined text-sm opacity-40">chevron_right</span></a>
-                <a class="text-on-surface hover:text-primary transition-colors font-semibold text-base flex justify-between items-center" href="#">Testimonials <span class="material-symbols-outlined text-sm opacity-40">chevron_right</span></a>
-                <a class="text-on-surface hover:text-primary transition-colors font-semibold text-base flex justify-between items-center" href="#">FAQs <span class="material-symbols-outlined text-sm opacity-40">chevron_right</span></a>
+                <a class="text-on-surface hover:text-primary transition-colors font-semibold text-base flex justify-between items-center" href="#how-it-works" onclick="document.getElementById('mobile-menu').classList.add('hidden')">How It Works <span class="material-symbols-outlined text-sm opacity-40">chevron_right</span></a>
+                <a class="text-on-surface hover:text-primary transition-colors font-semibold text-base flex justify-between items-center" href="#why-choose-us" onclick="document.getElementById('mobile-menu').classList.add('hidden')">Why Choose Us <span class="material-symbols-outlined text-sm opacity-40">chevron_right</span></a>
+                <a class="text-on-surface hover:text-primary transition-colors font-semibold text-base flex justify-between items-center" href="#faqs" onclick="document.getElementById('mobile-menu').classList.add('hidden')">FAQs <span class="material-symbols-outlined text-sm opacity-40">chevron_right</span></a>
             </div>
             <a href="https://bec.wbpdux.co.uk/"
                class="bg-primary text-white px-6 py-4 font-bold text-base active:scale-95 transition-all shadow-lg shadow-primary/20 rounded-xl text-center inline-block w-full">Check Your Eligibility</a>
@@ -212,7 +211,7 @@
         </div>
     </section>
     <!-- How It Works -->
-    <section class="py-section-gap bg-surface-container-lowest border-y border-surface-container">
+    <section id="how-it-works" class="scroll-mt-24 py-section-gap bg-surface-container-lowest border-y border-surface-container">
         <div class="max-w-container-max mx-auto px-inline-gutter">
             <div class="text-center mb-20">
                 <h2 class="font-headline-lg text-headline-lg text-on-surface mb-6">Simple 4-Step Process</h2>
@@ -264,7 +263,7 @@
         </div>
     </section>
     <!-- Why Choose Us -->
-    <section class="py-section-gap px-inline-gutter max-w-container-max mx-auto">
+    <section id="why-choose-us" class="scroll-mt-24 py-section-gap px-inline-gutter max-w-container-max mx-auto">
         <div class="grid lg:grid-cols-2 gap-20 items-center">
             <div>
                 <h2 class="font-headline-lg text-headline-lg text-on-surface mb-8 leading-tight">Why businesses choose wbpdux</h2>
@@ -314,7 +313,7 @@
     </section>
     <!-- Inquiry Form -->
     <!-- Testimonials & FAQ Section -->
-    <section class="py-section-gap px-inline-gutter max-w-container-max mx-auto border-t border-surface-container">
+    <section id="faqs" class="scroll-mt-24 py-section-gap px-inline-gutter max-w-container-max mx-auto border-t border-surface-container">
         <h2 class="font-headline-lg text-headline-lg text-on-surface mb-12 text-center">Common Questions</h2>
         <div class="space-y-4">
             <details class="group bg-white rounded-2xl border border-surface-container overflow-hidden" open="">
@@ -375,7 +374,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="md:col-span-4 space-y-4 md:col-start-9">
+                <div class="md:col-span-4 space-y-4 md:col-start-9 md:text-right">
                     <h4 class="font-bold text-xs uppercase tracking-widest text-on-surface">Policies</h4>
                     <ul class="space-y-2 text-sm text-on-surface-variant">
                         <li><a class="hover:text-primary transition-colors" href="privacy.html">Privacy Notice</a></li>
